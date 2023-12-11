@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/candidats', function () {
+    return view('welcome');
+});
+Route::get('/programmes', function () {
+    return view('welcome');
+});
+Route::get('/electeurs', function () {
+    return view('welcome');
+});
+Route::get('/secteurs', function () {
+    return view('welcome');
+});
